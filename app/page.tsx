@@ -128,13 +128,15 @@ const RTSLifecare = () => {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <a href="/" className="flex items-center">
-              <Image 
-                src="/rts-logo.png" 
-                alt="RTS LIFECARE" 
-                width={120} 
-                height={40} 
-                className="h-10 w-auto"
-              />
+              <div className="flex items-center space-x-3">
+                <Image 
+                  src="/rts-logo.png" 
+                  alt="RTS LIFECARE" 
+                  width={180} 
+                  height={60} 
+                  className="h-12 w-auto"
+                />
+              </div>
             </a>
 
             {/* Desktop Navigation */}
@@ -144,6 +146,7 @@ const RTSLifecare = () => {
               <a href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Services</a>
               <a href="#activities" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Activities</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</a>
+              <a href="/sample-2" className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-lg font-medium hover:shadow-lg transition-all">New Design ✨</a>
             </div>
 
             {/* Actions */}
@@ -178,6 +181,7 @@ const RTSLifecare = () => {
               <a href="#services" className="block py-2 text-gray-700 hover:text-blue-600 font-medium">Services</a>
               <a href="#activities" className="block py-2 text-gray-700 hover:text-blue-600 font-medium">Activities</a>
               <a href="#contact" className="block py-2 text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+              <a href="/sample-2" className="block py-2 text-green-600 hover:text-green-700 font-medium">New Design ✨</a>
               <button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2.5 rounded-lg font-medium">
                 Login
               </button>
@@ -618,8 +622,14 @@ const RTSLifecare = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div>
-              <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent mb-4">
-                RTS LIFECARE
+              <div className="flex items-center mb-4">
+                <Image 
+                  src="/rts-logo.png" 
+                  alt="RTS LIFECARE" 
+                  width={160} 
+                  height={53} 
+                  className="h-10 w-auto"
+                />
               </div>
               <p className="text-gray-400 mb-4">
                 ISO 9001:2015 Certified Healthcare Solutions
